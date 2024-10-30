@@ -1,0 +1,2 @@
+"""I am using data that I stored in AWS S3 to build a predicitive model that I can use to predict league position for teams in the top 5 leagues in Europe, namely England, Germany, Spain, France and Italy.
+  The data and AWS credenials are private so are not included in this public repo. This is a work in progress..."""
