@@ -39,9 +39,9 @@ class DataIngestorFactory:
     if file_extension == '.zip':
       return ZipIngestor()
     else:
-      raise ValueError('No Ingestor available for the the file extension')
+      raise ValueError('No Ingestor available for the ile extension')
 
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     filepath = '/Users/sylvestermhlanga/house prediction system/archive.zip'
     file_extension = os.path.splitext(filepath)[1]
 
@@ -49,4 +49,4 @@ if __name__ == '__main__':
 
     df = data_ingestor.ingest(filepath)
 
-    print(df.head())
+    print(df.head())"""
