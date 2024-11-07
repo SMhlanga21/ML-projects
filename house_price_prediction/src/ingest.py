@@ -2,7 +2,7 @@ import os
 import zipfile
 from abc import ABC, abstractmethod
 import pandas as pd
-
+from eda_src.univariate_analysis import UnivariateAnalyzer
 
 class DataIngestor(ABC):
   @abstractmethod
